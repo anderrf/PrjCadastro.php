@@ -14,7 +14,7 @@
 
         $registro = array(
             'pessoa' => array(
-              'codigo' => $linha['cd_livro'],
+              'codigo' => $linha['cd_pessoa'],
               'nome' => $linha['nm_nome'],
               'idade' => $linha['nr_idade'],
               'sexo' => $linha['ds_sexo'],
