@@ -16,7 +16,7 @@
 
       while($linha = mysqli_fetch_assoc($resultado)){
           $registro['pessoa'][$i] = array(
-              'codigo' => $linha['cd_livro'],
+              'codigo' => $linha['cd_pessoa'],
               'nome' => $linha['nm_nome'],
               'idade' => $linha['nr_idade'],
               'sexo' => $linha['ds_sexo'],
