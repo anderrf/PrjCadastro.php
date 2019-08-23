@@ -7,7 +7,7 @@
         $nome = $_POST['nome'];
         $idade = $_POST['idade'];
         $sexo = $_POST['sexo'];
-        $endereco = $_POST['$endereco'];
+        $endereco = $_POST['endereco'];
         $cpf = $_POST['cpf'];
 
 
